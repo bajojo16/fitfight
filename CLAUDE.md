@@ -2,9 +2,16 @@
 
 App fitness — **Fitness · Diet · Boxing**.
 
-## État du projet
+## Structure monorepo
 
-Projet neuf (créé 13/06/2026). Stack non choisie. Seul asset existant : logo dans `Logo/`.
+```
+fightfit/
+├── web/        ← React + Vite + TypeScript  (npm run dev → localhost:5173)
+├── mobile/     ← Expo React Native + TypeScript (npm run ios / android)
+└── Logo/       ← assets visuels
+```
+
+Depuis racine : `npm run web` ou `npm run mobile`.
 
 ## Identité visuelle
 
@@ -14,7 +21,13 @@ Projet neuf (créé 13/06/2026). Stack non choisie. Seul asset existant : logo d
 
 ## Démarrage
 
-À compléter une fois la stack choisie (commande dev server + port).
+```bash
+# Web
+npm run web        # → localhost:5173
+
+# Mobile
+npm run mobile     # → Expo Go (scan QR iOS/Android)
+```
 
 ## Conventions
 
