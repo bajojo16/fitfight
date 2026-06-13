@@ -1,11 +1,11 @@
-# FightFit
+# FitFight
 
 App fitness — **Fitness · Diet · Boxing**.
 
 ## Structure monorepo
 
 ```
-fightfit/
+fitfight/
 ├── web/        ← React + Vite + TypeScript  (npm run dev → localhost:5173)
 ├── mobile/     ← Expo React Native + TypeScript (npm run ios / android)
 └── Logo/       ← assets visuels

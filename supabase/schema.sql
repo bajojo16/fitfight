@@ -1,4 +1,4 @@
--- FightFit schema
+-- FitFight schema
 -- Run in Supabase SQL editor (Dashboard → SQL Editor)
 
 -- Enable UUID extension
